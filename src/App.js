@@ -11,8 +11,10 @@ function App() {
   async function getSearchData(){
     try{
       const result = await giphySearch(valueSearch);
+      console.log('called', result);
       setDataSearch(result.data.data)
     } catch(error){
+      console.log('called error');
       console.warn('error', error)
     }
   };
