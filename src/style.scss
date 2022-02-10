@@ -1,0 +1,52 @@
+/* Breakpoints*/
+$m: 768px;
+$l: 1024px;
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 10px;
+  
+  &.-result{
+    columns: 3 200px;
+    column-gap: 10px;
+    padding-left: 20px;
+  }
+}
+
+.giphy__item {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 8px 8px 0;
+  text-align: center;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.search__input {
+  width: 100%;
+  height: 36px;
+  background-color: #F5F5F5;
+  margin: 12px 0 16px;
+  border: none;
+  border-bottom:2px solid #007CC2;
+  padding-left: 12px;
+  color: #031545;
+  font-size: 14px;
+  line-height: 17px;
+}
+.search__button {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 22px;
+  right: 0;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNyIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE3IDE3Ij48cGF0aCBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIuODgyIiBkPSJNNy4zNzUgMS41NDJhNS44NCA1Ljg0IDAgMCAxIDUuODMzIDUuODM0IDUuODQgNS44NCAwIDAgMS01LjgzMyA1LjgzMyA1Ljg0IDUuODQgMCAwIDEtNS44MzMtNS44MzMgNS44NCA1Ljg0IDAgMCAxIDUuODMzLTUuODM0bTAgMTIuMjFjMS42NiAwIDMuMTctLjY0NCA0LjMwNS0xLjY4N2wzLjg1NyAzLjg1NWEuMjcyLjI3MiAwIDAgMCAuMzg0IDAgLjI3MS4yNzEgMCAwIDAgMC0uMzgzbC0zLjg1Ny0zLjg1NmE2LjM0MSA2LjM0MSAwIDAgMCAxLjY4Ny00LjMwNUE2LjM4MyA2LjM4MyAwIDAgMCA3LjM3NSAxIDYuMzgzIDYuMzgzIDAgMCAwIDEgNy4zNzZhNi4zODIgNi4zODIgMCAwIDAgNi4zNzUgNi4zNzUiIG9wYWNpdHk9Ii4zIi8+PC9zdmc+);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 0;
+  z-index: 1;
+  cursor: pointer;
+}
